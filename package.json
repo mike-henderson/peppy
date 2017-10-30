@@ -8,7 +8,6 @@
   "author": "Mike Henderson",
   "license": "MIT",
   "dependencies": {
-    "@slack/client": "^3.14.1",
-    "glitchup": "^1.2.0"
+    "@slack/client": "^3.14.1"
   }
 }
