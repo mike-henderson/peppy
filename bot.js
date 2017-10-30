@@ -62,3 +62,11 @@ rtm.on(RTM_EVENTS.MESSAGE, (message) => {
 });
 
 rtm.start();
+
+/**
+  Keep awake
+*/
+var https = require("https");
+setInterval(function() {
+    https.get("https://limitless-crag-50883.herokuapp.com");
+}, 600000); // every 10 minutes (600000)
