@@ -1,0 +1,14 @@
+{
+  "name": "slack-custom-integration-node-sdk-bootstrap",
+  "version": "1.0.0",
+  "description": "Peppy gives you a pep talk",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Mike Henderson",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/client": "^3.14.1",
+    "glitchup": "^1.2.0"
+  }
+}
